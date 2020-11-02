@@ -1,0 +1,21 @@
+img#imagemSlide{
+    height: 25em;
+    width: 100%;
+    object-fit: cover;
+}
+
+div#imagemSlideProtfolio{
+    height: 5em;
+    width: 100%;
+    object-fit: cover;
+}
+
+@font-face{
+    font-family: Barlow;
+    src: url(../assets/fontes/Barlow-Light.ttf);
+    src: url(../assets/fontes/Barlow-Bold.ttf);
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+}

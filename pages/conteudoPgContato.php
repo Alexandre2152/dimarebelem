@@ -21,12 +21,12 @@ function ContContato()
         <!-- Tipos de contatos -->
         <div class="container-sm  font-weight-bold">
             <ul>
-                <li>Telefone: (91) 4042-0743</li>
+                <li>Telefone: (91) 98115-7496</li>
                 <li>E-mail: loja@lojadimarebelem.com.br</li>
             </ul>
 
             <div class="container-sm text-center">
-                <a class="text-decoration-none text-danger" href="https://api.whatsapp.com/send?phone=5591987299817&text=Ol%C3%A1%20sou%20a%20vendedora%20Jamilly%20%C3%A9%20um%20prazer%20lhe%20atender!%20Logo%20responderei.">
+                <a class="text-decoration-none text-danger" href="https://api.whatsapp.com/send?phone=5591981157496&text=Ol%C3%A1%20sou%20a%20vendedora%20Tatiane%20%C3%A9%20um%20prazer%20lhe%20atender!%20Logo%20responderei.">
                     Entre em conto por <strong class="text-uppercase">whatsapp</strong>
                     <img src="assets/redesSociais/whatsapp.svg" width="25em" title="Whatsapp">
                 </a>

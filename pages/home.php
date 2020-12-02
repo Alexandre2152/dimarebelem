@@ -27,7 +27,7 @@ function menu()
             </div>
 
             <form class="form-inline my-3 my-sm-0">
-                <a href="https://webmail-seguro.com.br/" class="nav-link text-decoration-none text-white-50" target="target">Área Restrita</a>
+                <a href="administrative/menu_adm/index.php" class="nav-link text-decoration-none text-white-50" target="target">Área Restrita</a>
             </form>
         </nav>
     </div>
@@ -47,12 +47,12 @@ function slideCarrosel()
         <div id="slideimagens" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="assets/loja/loja07.jpeg" title=".::Dimare Belém::." id="imagemSlide">
+                    <img src="assets/loja/loja21.jpeg" title=".::Dimare Belém::." id="imagemSlide">
                 </div>
 
-                <!-- <div class="carousel-item">
-                    <img src="assets/loja/loja09.jpeg" title=".::Dimare Belém::." id="imagemSlide">
-                </div> -->
+                <div class="carousel-item">
+                    <img src="assets/loja/loja16.jpeg" title=".::Dimare Belém::." id="imagemSlide">
+                </div>
 
                 <div class="carousel-item">
                     <img src="assets/cozinha/cozinha_01.jpg" title=".::Dimare Belém::." id="imagemSlide">
@@ -178,18 +178,18 @@ function orcameto()
         <!-- <h6>
             <p class="text-uppercase text-center">Aproveite nossas promoções e solicite seu orçamento sem compromisso.</p>
         </h6> -->
-        
+
         <iframe style="display: none;" name="formOrcamento"></iframe>
         <form action="registros/addClienteBD.php" method="POST" target="formOrcamento">
             <div class="row-2">
                 <div class="col pb-2"><input type="text" name="nome" class="form-control border border-danger" placeholder="Nome" required style="background-color: #ffffff9a;"> </div>
-                </div>
-                <div class="row-2">
-                    <div class="col pb-2"><input type="text" name="email" class="form-control border border-danger" placeholder="E-mail" required style="background-color: #ffffff9a;"> </div>
-                    <div class="col pb-2"><input type="text" name="telefone" class="form-control border border-danger" placeholder="Whatsapp" required style="background-color: #ffffff9a;"> </div>
-                </div>
-                
-            
+            </div>
+            <div class="row-2">
+                <div class="col pb-2"><input type="text" name="email" class="form-control border border-danger" placeholder="E-mail" required style="background-color: #ffffff9a;"> </div>
+                <div class="col pb-2"><input type="text" name="telefone" class="form-control border border-danger" placeholder="Whatsapp" required style="background-color: #ffffff9a;"> </div>
+            </div>
+
+
             <div class="row-2">
                 <div class="col pb-2"><textarea type="textarea" name="mensagem" class="form-control border border-danger" placeholder="Mensagem..." row="2" style="background-color: #ffffff9a;"></textarea></div>
             </div>
@@ -250,9 +250,9 @@ function contato()
     <div class="row">
         <div class="col pb-2">
             <p class="w-75">Av. Gov. José Malcher, nº 716. Loja A e B. Bairro Nazaré. CEP: 66060232. Belém-Pará</p>
-            <p>(91) 4042-0743</p>
+            <p>(91) 98115-7496</p>
             <p>
-                <a class="text-decoration-none text-danger" href="https://api.whatsapp.com/send?phone=5591987299817&text=Ol%C3%A1%20sou%20a%20vendedora%20Jamilly%20%C3%A9%20um%20prazer%20lhe%20atender!%20Logo%20responderei.">
+                <a class="text-decoration-none text-danger" href="https://api.whatsapp.com/send?phone=5591981157496&text=Ol%C3%A1%20sou%20a%20vendedora%20Tatiane%20%C3%A9%20um%20prazer%20lhe%20atender!%20Logo%20responderei.">
                     Atendimento por <strong class="text-uppercase">whatsapp</strong>
                     <img src="assets/redesSociais/whatsapp.svg" width="25em" title="Whatsapp">
                 </a>

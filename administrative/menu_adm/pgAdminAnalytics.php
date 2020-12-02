@@ -23,7 +23,6 @@ include '../../registros/sessaoControle.php';
   <link rel="stylesheet" href="assets/css/argon.css?v=1.2.0" type="text/css">
 
   <?php
-  include '../../registros/orcamentoBD.php';
   include '../../registros/usuarioBD.php';
   ?>
 </head>
@@ -48,7 +47,7 @@ include '../../registros/sessaoControle.php';
           <!-- Nav items -->
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" href="pgAdmin.php">
+              <a class="nav-link" href="pgAdmin.php">
                 <i class="ni ni-tv-2 text-primary"></i>
                 <span class="text-danger nav-link-text">Orçamento</span>
               </a>
@@ -60,7 +59,7 @@ include '../../registros/sessaoControle.php';
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pgAdminUser.php">
+              <a class="nav-link active" href="#">
                 <i class="ni ni-single-02 text-yellow"></i>
                 <span class="text-danger nav-link-text">Usuários</span>
               </a>
@@ -151,7 +150,7 @@ include '../../registros/sessaoControle.php';
           <div class="card bg-white" id="conteudo">
 
             <div class="container p-3" id="paginasAdministrativo">
-              <?php orcamentoConsulta(); ?>
+              <?php usuarioConsulta(); ?>
             </div>
 
 

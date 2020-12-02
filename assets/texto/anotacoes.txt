@@ -3,3 +3,9 @@ edson.fontes@hotmail.com
 efs138138139
 
 tamanhos das imagens é de 12x3 cm
+
+--------------------------------------------
+Estatus da situação:
+NOVO = Cliente que acabou de solicitar um orçamento.
+EM ANDAMENTO = Cliente atendido por um funcionário.
+FINALIZADO = Cliente com o serviço todo finalizado.

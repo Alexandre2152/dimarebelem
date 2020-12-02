@@ -1,20 +1,11 @@
-<?php 
+<?php
 
-function rotasPaginas(){
+function rotasPaginas($valor)
+{
 
-    echo ("
-    <script>
-        alert ('teste')
-    </script>
-    ");
-
-    
-
-
-
-    
-
+    switch ($valor) {
+        case 'orcamento':
+            echo orcamentoConsulta();
+            break;
+    }
 }
-
-
-?>

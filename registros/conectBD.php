@@ -1,8 +1,6 @@
 <?php
 
-//$conn = mysqli_connect("127.0.0.1:3306", "root", "", "dimarebelem");
-//(187.45.196.174) - ip banco
-$conn = mysqli_connect("dimarebelem.mysql.dbaas.com.br", "dimarebelem", "dimare2513", "dimarebelem");
+
 
 mysqli_set_charset($conn, 'utf8');
 

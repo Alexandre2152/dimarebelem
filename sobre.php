@@ -29,10 +29,10 @@
     <link rel="shortcut icon" href="assets/iconesMenu/icone_logo.ico" />
 
     <meta name="author" content="Alexandre Santana">
-    <meta name="description" content="Loja Dimare Belém">
+    <meta name="description" content="Loja Dimare Belém - A mais nova loja de móveis planejados, entre e solicite seu orçamento.">
     <meta name="keywords" content="loja, lojas, dimare, belem, planejados, moveis, móveis, casa, quarto, sala, banheiro, escritório, escritorio, marcenaria, orcamento, orçamento, cozinha, apartamento, familia, família">
-    <meta name="robots" content="all">
-    <meta name="googlebot" content="all">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index">
 
     <link rel="stylesheet" href="css/bootstrap-grid.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.css">
